@@ -1,0 +1,82 @@
+#mainSVG {
+  width: 1400px;
+  height: 1200px;
+  background-color: #eee;
+}
+#undergroundSVG {
+  width: 600px;
+  height: 600px;
+  background-color: #eee;
+  vertical-align: top;
+}
+#city-input {
+  vertical-align: top;
+}
+.underground-rock {
+  fill: #555;
+}
+.underground-entrance {
+  fill: #ff0;
+}
+.plains {
+  fill: #ffe;
+}
+.large-city {
+  fill: #f00;
+}
+.ocean {
+  fill: #00f;
+}
+.mountain {
+  fill: #850;
+}
+.jungle {
+  fill: #0f5;
+}
+.forest {
+  fill: #080;
+}
+.small-city {
+  fill: #f00;
+}
+.medium-city {
+  fill: #f00;
+}
+.alpine {
+  fill: #420;
+}
+.desert {
+  fill: #dd8;
+}
+.port {
+  fill: #000;
+}
+.volcano {
+  fill: #a00;
+}
+.tile:hover {
+  stroke: #000;
+}
+.port.tile:hover {
+  stroke: #f0f;
+}
+.tile.highlighted-city {
+  -webkit-animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes fade {
+  0% {
+    fill: #f00;
+  }
+  33% {
+    fill: #0f0;
+  }
+  66% {
+    fill: #00f;
+  }
+  100% {
+    fill: #f00;
+  }
+}
